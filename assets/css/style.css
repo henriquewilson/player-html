@@ -1,0 +1,21 @@
+section {
+  height: 100vh;
+}
+section .ratio {
+  position: relative;
+}
+section .ratio:after {
+  content: "";
+  background-color: #fff;
+  background-image: url("https://gabirubi.s3.amazonaws.com/gabirubi.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
